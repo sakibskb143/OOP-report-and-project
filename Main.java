@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package ComplexEngineeringProjectOnPayroll_System;
 
 import java.util.Scanner;
@@ -101,3 +102,20 @@ public class Main {
     
 }
 
+=======
+public class Main {
+    public static void main(String[] args) {
+        Polygon[] polygons = {
+            new Circle(5),
+            new Triangle(4, 3),
+            new Rectangle(6, 4),
+            new Square(5)
+        };
+
+        for (Polygon p : polygons) {
+            p.draw();
+            System.out.println("Area: " + p.area());
+        }
+    }
+}
+>>>>>>> 92712b0463d67cb0282f6ea900f810f67b1250f8
